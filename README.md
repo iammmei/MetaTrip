@@ -2,7 +2,7 @@
 
 ## Inspirations
 
-https://github.com/stefvndev/car-rental
-https://www.tui.be/fr
-https://wanderlog.com/home
-https://www.tryp.com/fr
+1https://github.com/stefvndev/car-rental
+2https://www.tui.be/fr
+3https://wanderlog.com/home
+3https://www.tryp.com/fr
