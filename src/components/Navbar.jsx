@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {  faBars,faTimes } from '@fortawesome/free-solid-svg-icons';
@@ -22,6 +22,14 @@ function Navbar() {
       setButton(true)
     }
   };
+
+  useEffect(() => {
+    showButton();
+
+  },[]);
+
+  
+
   window.addEventListener('resize',showButton);
 
 
@@ -30,7 +38,7 @@ function Navbar() {
       <>
    <nav className='navbar'>
       <div className="navbar-container">
-          <Link to = "/" className="navbar-logo">
+          <Link to = "/" className="navbar-logo" onClick={closeMobileMenu}>
               TRAVEL 
 
 
