@@ -22,9 +22,15 @@ function Cards() {
                 path='/services'
                 />
                 <CardItem 
-                src="images/img-9.jpg"
-                text='Explore hidden waterfall deep inside the Amazon jungle'
-                label='Adventure'
+                src="images/img-3.jpg"
+                text='Set Sail in the Atlantic Ocean Uncharted WAters '
+                label='Mystery'
+                path='/services'
+                />
+                 <CardItem 
+                src="images/img-8.jpg"
+                text='Ride through the Sahara Desert camel tour'
+                label='Adrenaline'
                 path='/services'
                 />
                 
