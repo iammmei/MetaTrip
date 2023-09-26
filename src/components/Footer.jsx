@@ -71,10 +71,7 @@ function Footer() {
                 </Link>
             </div>
             <small className="website-rights">TRAVEL  ©2023</small>
-            <div className="social-icons">
-               <Link className="social-icon-link facebook">
-                </Link> 
-            </div>
+            
         </div>
       </section>
     </div>
