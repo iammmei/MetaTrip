@@ -1,23 +1,25 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
+import Home from './components/pages/Home';
+import Services from "./components/pages/SignUp";
+import Products from './components/pages/Products';
+import SignUp from './components/pages/SignUp';
 
-
-
-
-function App() {
+const App = () => {
   return (
     <>
-    <Router>
-     <Navbar/>
-     <Routes>
-      <Route exact path="/"/> 
-     
-      
-      </Routes>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/services" element={<Services/>}></Route>
+          <Route path="/products" element={<Products/>}></Route>
+          <Route path="/sign-up" element={<SignUp/>}></Route>
+
+        </Routes>
       </Router>
-      
     </>
   );
 }
