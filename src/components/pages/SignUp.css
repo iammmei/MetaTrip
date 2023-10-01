@@ -1,6 +1,6 @@
 
 
-/* .container {
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,13 +8,24 @@
     height: 100vh;
   
   }
-   */
+  
 
   
   form {
     display: flex;
     flex-direction: column;
     width: 300px;
+  }
+  form.form{
+    align-content: center;
+  justify-content: center;
+  display: flex;
+  border: solid 2px black;
+  padding: 121px;
+  width: 470px;
+  height: 500px;
+
+
   }
   
   label {
