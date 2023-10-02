@@ -12,10 +12,4 @@
 
 4https://www.tryp.com/fr
 
-### But before you need to learn React 
 
-### Trello 
-
-1https://trello.com/b/Z7HnRnI3/traveling-website
-
-# Maybe we will keep this one
