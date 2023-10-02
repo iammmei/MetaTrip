@@ -67,10 +67,10 @@ function Footer() {
         <div className="social-media-wrap">
             <div className="footer-logo">
                 <Link to="/" className="social-logo">
-                    TRAVEL
+                    METATRIP
                 </Link>
             </div>
-            <small className="website-rights">TRAVEL  ©2023</small>
+            <small className="website-rights"> METATRIP  ©2023</small>
             
         </div>
       </section>
