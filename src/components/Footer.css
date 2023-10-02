@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Centauri';
+  src: url('./fonts/Centauri.ttf') format('truetype') ;
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 .footer-container{
     background-color: #242424;
     padding: 4rem 0 2rem 0;
@@ -119,14 +127,14 @@
     display: flex;
     align-self: center;
     margin-bottom: 16px;
+    font-family: 'Centauri';
 }
 .website-rights{
     color: #fff;
     margin-bottom: 16px;
+    font-family: 'Centauri';
 }
-.bttnn{
-    margin-top: 10px;
-  }
+
   
 
 @media screen and (max-width:820px) {
