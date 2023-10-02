@@ -5,32 +5,38 @@ import './Cards.css';
 function Cards() {
   return (
     <div className='cards'>
-        <h1>Check out these Epic destinations!</h1>
+        <h1>Chose your next destination</h1>
      <div className="cards__container">
         <div className="cards__wrapper">
             <ul className="cards__items">
                 <CardItem 
                 src="images/img-9.jpg"
-                text='Explore hidden waterfall deep inside the Amazon jungle'
-                label='Adventure'
+                text='Explore and live the Maya Culture'
+                label='Time Machine'
                 path='/services'
                 />
                 <CardItem 
                 src="images/img-2.jpg"
-                text='Travel through the islands of Bali in Private Cruise'
-                label='Luxury'
+                text='Travel through the islands of Bali'
+                label='Travel'
                 path='/services'
                 />
                 <CardItem 
                 src="images/img-3.jpg"
-                text='Set Sail in the Atlantic Ocean Uncharted WAters '
-                label='Mystery'
+                text='Find the secret of Atlantide '
+                label='Adventure'
                 path='/services'
                 />
                  <CardItem 
                 src="images/img-8.jpg"
-                text='Ride through the Sahara Desert camel tour'
-                label='Adrenaline'
+                text='Travel back in time into Ancient Egypt'
+                label='Time Machine'
+                path='/services'
+                />
+                 <CardItem 
+                src="images/img-6.jpg"
+                text='Explore the Galaxy'
+                label='Adventure'
                 path='/services'
                 />
                 
