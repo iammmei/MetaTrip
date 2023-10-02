@@ -29,6 +29,7 @@
   font-size: 18px;
   width: 101px;
   text-align:center;
+  margin-top: 0;
 }
 
 .btn--large {
@@ -43,3 +44,4 @@
   color: #242424;
   transition: 250ms;
 }
+
