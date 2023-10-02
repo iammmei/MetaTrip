@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import '../../App.css';
-import './SignUp.css'
+import './Form.css'
 
-export default function SignUp() {
+export default function Form() {
 
 
 
@@ -31,8 +30,6 @@ export default function SignUp() {
   
     return (
       <>
-    
-        <h1 className='sign-up'>Sign Up</h1>
         <div className="container">
         <form className='form' onSubmit={handleSubmit}>
           <label>
