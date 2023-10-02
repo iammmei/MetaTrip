@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import '../../App.css';
-import './SignUp.css'
+import './Form.css'
 
-export default function SignUp() {
+export default function Form() {
 
 
 
