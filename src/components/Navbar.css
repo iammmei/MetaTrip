@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Centauri';
+  src: url('./fonts/Centauri.ttf') format('truetype') ;
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 .navbar {
   background:#0b0c0c;
   height: 80px;
@@ -75,7 +83,9 @@
   display: none;
 }
 
-
+p{
+  font-family: 'Centauri';
+}
 
 
   .Logo{

@@ -39,12 +39,16 @@ function Navbar() {
       <>
    <nav className='navbar'>
       <div className="navbar-container">
+        <div className="left">
           <Link to = "/" className="navbar-logo" onClick={closeMobileMenu}>
           <img className="Logo" src={Logo} />
+          <p>METATRIP</p>
+          </Link>
+          </div>
              
 
 
-          </Link>
+          
           <div className="menu-icon" onClick={handleClick}>
           <FontAwesomeIcon icon={click? faTimes : faBars} /> 
           </div> 
