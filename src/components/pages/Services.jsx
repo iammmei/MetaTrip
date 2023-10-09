@@ -8,7 +8,7 @@ export default function Services() {
     
         return (
         <>
-  <h1 className='Services'> SERVICES </h1>
+  <h1 className='Services'> Trips </h1>
          <Cards/>
         
         </>

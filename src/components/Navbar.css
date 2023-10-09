@@ -98,8 +98,13 @@ p{
   padding-bottom: 7px;
   margin-top: 8px;
   }
+  .fa-times {
+    color: #f5e7e7;
+    font-size: 2rem;
+  }
   
   @media screen and (max-width: 960px) {
+    p{display: none;}
     .NavbarItems {
       position: relative;
     }
@@ -117,7 +122,7 @@ p{
     }
   
     .nav-menu.active {
-      background: #242222;
+      background: black;
       left: 0;
       opacity: 1;
       transition: all 0.5s ease;
@@ -134,7 +139,7 @@ p{
     .nav-links:hover {
       background-color: #fff;
       color: #242424;
-      border-radius: 0;
+     
     }
   
     .navbar-logo {
@@ -143,6 +148,7 @@ p{
       left: 0;
       transform: translate(25%, 50%);
     }
+  
   
     .menu-icon {
       display: block;
@@ -155,7 +161,7 @@ p{
     }
   
     .fa-times {
-      color: #fff;
+      color: #f5e7e7;
       font-size: 2rem;
     }
   

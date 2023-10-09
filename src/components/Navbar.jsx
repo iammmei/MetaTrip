@@ -50,7 +50,8 @@ function Navbar() {
 
           
           <div className="menu-icon" onClick={handleClick}>
-          <FontAwesomeIcon icon={click? faTimes : faBars} /> 
+          <FontAwesomeIcon icon={click ? faTimes : faBars} style={{ color: click ? '#fff' : '#000' }} />
+
           </div> 
 
         <ul className={click ? 'nav-menu active' : 'nav-menu'} > 
@@ -63,7 +64,7 @@ function Navbar() {
 
         <li className='nav-item'>
           <Link to="/services" className='nav-links' onClick={closeMobileMenu}>
-            Services
+            Trips
             </Link>
         </li>
 
