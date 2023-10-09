@@ -1,14 +1,17 @@
 
 h2{
-    display: none;
-    color:red
+    /* display: none; */
+   font-family: 'centauri';
+font-size: 2rem;
+text-align: center;
 }
+   
 
 h1{
     font-size: 4rem;
-    color: white;
+    color: rgb(12, 10, 10);
     margin: 20px;
-    text-shadow: rgb(129, 129, 127) 1px 0 10px;
+    text-shadow: rgb(68, 68, 63) 1px 0 10px;
     margin-top: 8rem;
   }
   
