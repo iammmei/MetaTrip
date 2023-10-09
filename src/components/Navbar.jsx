@@ -41,7 +41,7 @@ function Navbar() {
       <div className="navbar-container">
         <div className="left">
           <Link to = "/" className="navbar-logo" onClick={closeMobileMenu}>
-          <img className="Logo" src={Logo} />
+          {/* <img className="Logo" src={Logo} /> */}
           <p>METATRIP</p>
           </Link>
           </div>
