@@ -9,9 +9,10 @@ export default function Services() {
     
         return (
         <>
-  <h1 className='Services'style={{ marginTop: '5rem' ,}}> Trips </h1>
+        <div className="containers">
+  <h1 > Trips </h1>
          <Cards/>
-        
+         </div>
         </>
         );
     }

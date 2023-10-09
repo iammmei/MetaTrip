@@ -1,3 +1,6 @@
+body{
+    background-color: ;
+}
 h2{
     display: none;
     color:red
@@ -8,6 +11,6 @@ h1{
     color: white;
     margin: 20px;
     text-shadow: rgb(129, 129, 127) 1px 0 10px;
-    margin-top: 10rem;
+    margin-top: 8rem;
   }
   
