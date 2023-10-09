@@ -84,7 +84,8 @@ export default function Form() {
       
          buttonStyle='btn--outline'
         buttonSize='btn--large'
-        >
+       
+>
             Sign Up
         </Button>
         </form>

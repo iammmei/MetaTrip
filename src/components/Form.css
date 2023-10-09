@@ -19,7 +19,8 @@
     color: white;
     margin: 20px;
     text-shadow: rgb(129, 129, 127) 1px 0 10px;
-    margin-top: -10rem;
+    margin-top: -12rem;
+    margin-bottom: 4rem;
   }
   
   
@@ -54,6 +55,10 @@ border: 1px solid rgba(255, 255, 255, 0.06);
   input {
     padding: 0.5rem;
     font-size: 1rem;
+  }
+  button{
+  margin-left: 2.8rem;
+  margin-right: 3rem;
   }
   
 .bouton {

@@ -31,6 +31,7 @@
 }
 
 .navbar-logo {
+  text-shadow: rgb(129, 129, 127) 1px 0 10px;
   color: #fff;
   justify-self: start;
   margin-left: 20px;
