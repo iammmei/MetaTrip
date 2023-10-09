@@ -6,7 +6,7 @@ import Form  from '../Form';
 function SignUp() {
   return (
     <>
-    <h1 className='sign-up'> Sign Up </h1>
+    
     <Form/>
     </>
     )

@@ -50,7 +50,7 @@ function Navbar() {
 
           
           <div className="menu-icon" onClick={handleClick}>
-          <FontAwesomeIcon icon={click ? faTimes : faBars} style={{ color: click ? '#fff' : '#000' }} />
+          <FontAwesomeIcon icon={click ? faTimes : faBars} style={{ color: click ? '#fff' : '#fff' }} />
 
           </div> 
 

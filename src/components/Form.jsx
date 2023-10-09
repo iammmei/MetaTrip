@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Form.css'
-
+import { Button } from './Button';
 export default function Form() {
 
 
@@ -31,7 +31,11 @@ export default function Form() {
     return (
       <>
         <div className="container">
+        <h1> Sign Up </h1>
+          
+          
         <form className='form' onSubmit={handleSubmit}>
+          
           <label>
             First Name:
             <input
@@ -76,7 +80,13 @@ export default function Form() {
             />
           </label>
   
-          <button type="submit">Sign Up</button>
+          <Button 
+      
+         buttonStyle='btn--outline'
+        buttonSize='btn--large'
+        >
+            Sign Up
+        </Button>
         </form>
         </div>
       </>
