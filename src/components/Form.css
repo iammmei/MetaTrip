@@ -6,17 +6,32 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-  
+    background-image: url('/images/salle.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+   
+  }
+
+  .container > h1:nth-child(1) {
+    font-size: 4rem;
+    color: white;
+    margin: 20px;
+    text-shadow: rgb(129, 129, 127) 1px 0 10px;
+    margin-top: -12rem;
+    margin-bottom: 4rem;
   }
   
-
   
   form {
     display: flex;
     flex-direction: column;
     width: 300px;
+    
   }
   form.form{
+    color: aliceblue;
     align-content: center;
   justify-content: center;
   display: flex;
@@ -24,6 +39,11 @@
   padding: 121px;
   width: 470px;
   height: 500px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(9.1px);
+-webkit-backdrop-filter: blur(9.1px);
+border: 1px solid rgba(255, 255, 255, 0.06);
+
 
 
   }
@@ -36,13 +56,13 @@
     padding: 0.5rem;
     font-size: 1rem;
   }
-  
-  button {
-    background-color: white;
-    color: black;
-    padding: 0.5rem;
-    font-size: 1rem;
-    cursor: pointer;
-    margin-top: 1rem;
+  button{
+  margin-left: 2.8rem;
+  margin-right: 3rem;
   }
+  
+.bouton {
+  border: solid 1px black;
+
+}
   

@@ -7,7 +7,7 @@
 
 
 .footer-container{
-    background-color: #242424;
+    background-color: black;
     padding: 4rem 0 2rem 0;
     display: flex;
     flex-direction: column;
@@ -158,4 +158,31 @@
     .social-media-wrap{
         flex-direction: column;
     }
+}
+
+@media screen and (max-width: 960px) {
+    a{
+        display: none;
+    }
+
+    .footer-link-wrapper{
+        display: flex;
+        text-align: center;
+        align-items: center;
+
+    }
+    .footer-links{
+        display: block;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        line-height: 0.5;
+    }
+
+    .footer-links h2{
+        font-size: 20px;
+    }
+
+
 }

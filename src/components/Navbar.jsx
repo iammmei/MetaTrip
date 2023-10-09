@@ -41,7 +41,7 @@ function Navbar() {
       <div className="navbar-container">
         <div className="left">
           <Link to = "/" className="navbar-logo" onClick={closeMobileMenu}>
-          <img className="Logo" src={Logo} />
+          {/* <img className="Logo" src={Logo} /> */}
           <p>METATRIP</p>
           </Link>
           </div>
@@ -50,7 +50,8 @@ function Navbar() {
 
           
           <div className="menu-icon" onClick={handleClick}>
-          <FontAwesomeIcon icon={click? faTimes : faBars} /> 
+          <FontAwesomeIcon icon={click ? faTimes : faBars} style={{ color: click ? '#fff' : '#fff' }} />
+
           </div> 
 
         <ul className={click ? 'nav-menu active' : 'nav-menu'} > 
@@ -63,7 +64,7 @@ function Navbar() {
 
         <li className='nav-item'>
           <Link to="/services" className='nav-links' onClick={closeMobileMenu}>
-            Services
+            Trips
             </Link>
         </li>
 

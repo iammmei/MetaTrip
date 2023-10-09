@@ -1,6 +1,7 @@
 import React from 'react'
 import'../../App.css'
 import Cards from '../Cards';
+import './Services.css'
 
 
 
@@ -8,9 +9,10 @@ export default function Services() {
     
         return (
         <>
-  <h1 className='Services'> SERVICES </h1>
+        <div className="containers">
+  <h1 > Trips </h1>
          <Cards/>
-        
+         </div>
         </>
         );
     }
